@@ -1,0 +1,50 @@
+/* SignUp.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background:"#dde9fd"
+    
+  }
+  
+  .signup-card {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Set a maximum width for the card */
+    width: 80%; /* Use a percentage width for responsiveness */
+  }
+  
+  .signup-card h2 {
+    color: white;
+  }
+  
+  .signup-card button {
+    background-color: #f1c40f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Apply these styles for devices with a maximum width of 768px (e.g., tablets and mobiles) */
+  
+    .signup-card {
+      padding: 10px;
+    }
+  
+    .signup-card h2 {
+      font-size: 18px;
+    }
+  
+    .signup-card button {
+      font-size: 14px;
+    }
+  }
+  
